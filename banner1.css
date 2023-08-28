@@ -1,0 +1,84 @@
+.containe {
+    background-color: aliceblue;
+    width: 100%;
+    display: flex;
+
+}
+
+.wraper {
+    background-color: aqua;
+    width: 100%;
+    height: 400px;
+
+}
+
+.main1 {
+    background-color: aquamarine;
+    width: 100%;
+    height: 400px;
+
+}
+
+.main2 {
+    background-color: aquamarine;
+    width: 100%;
+    height: 400px;
+    display: flex;
+
+
+}
+
+.main2 .mail2left {
+    background-color: aquamarine;
+    width: 100%;
+    height: 400px;
+
+}
+
+.main2 .mail2left_1 .main2left_1_titel {
+    background-color: aquamarine;
+    width: 100px;
+    height: 60px;
+}
+
+.main2 .mail2left_2 .main2left_2_title{
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+}
+
+.center {
+    background-color: aquamarine;
+    width: 100%;
+    height: 400px;
+}
+
+.right {
+    background-color: aquamarine;
+    width: 100%;
+    height: 400px;
+}
+
+.right .right1 {
+    background-color: aquamarine;
+    width: 100%;
+    height: 400px;
+}
+.right .right1 .right1_title {
+    background-color: aquamarine;
+    width: 100%;
+    height: 400px;
+
+}
+
+.right .right2 {
+    background-color: aquamarine;
+    width: 100%;
+    height: 400px;
+}
+
+.right .right2 .right2_tiyle {
+    background-color: aquamarine;
+    width: 100%;
+    height: 400px;
+}
