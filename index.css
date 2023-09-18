@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-font: 'Leckerli One', cursive;
+    --main-color: rgb(230, 142, 171);
+}
+
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 10%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 15%;
+    transition: all 0.5s ease;
+    background-color: white;
+}
+
+.kaito {
+    color: var(--main-color);
+    font-family: var(--main-font);
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+#nav {
+    display: contents;
+}
+
+#nav li {
+    list-style: none;
+    position: relative;
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav>li>a {
+    background-color: white;
+    text-transform: uppercase;
+
+}
+
+
+#nav a {
+    color: var(--main-color);
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px 22px;
+    transition: all 0.5s ease;
+    float: right;
+
+}
+
+#nav .subnav {
+    display: none;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    background-color: white;
+    padding-left: 0;
+}
+
+.subnav a {
+    text-indent: center;
+    padding-left: 0;
+}
+
+#nav a:hover {
+    color: var(--main-color);
+}
+
+#content {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./evie-s-MicqqGyDQ6w-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+}
+
+#content .content_noidung1 {
+    display: flex;
+    font-family: var(--main-font);
+    color: black;
+    line-height: 1.3;
+    /* Corrected line-height value */
+    margin-bottom: 25px;
+}
+
+#content .content_noidung2 {
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    line-height: 1.3;
+    /* Corrected line-height value */
+    margin-bottom: 60px;
+}
+
+.btn {
+    background-color: var(--main-color);
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 40px;
+
+
+}
+
+/* Add styles for #main if needed */
